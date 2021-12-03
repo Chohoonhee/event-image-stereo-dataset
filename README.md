@@ -1,4 +1,4 @@
-# event_image_stereo_dataset
+# event-image-stereo-dataset
 
 Stereo setup of event camera dataset made by Hoonhee Cho @Visual Intelligence Lab. of KAIST. 
 
