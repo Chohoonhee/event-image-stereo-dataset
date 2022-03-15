@@ -20,6 +20,8 @@ The resolution of images and events is 346 x 260 as same as DVS346 camera.
 In our depth image, because of the blender version, a distance map is provided, not a depth map.
 Therefore, we transform the distance map to depth map using camera intrinisic parameter. (camera FoV = 90 degree)
 
+<pre>
+<code>
 def _get_depth_image(depth_image_path):
     depth_image = np.array(cv2.imread(depth_image_path, cv2.IMREAD_ANYDEPTH))
     depth_image = (depth_image / 655.35)
@@ -34,7 +36,8 @@ def _get_depth_image(depth_image_path):
     depth_image[invalid_depth1] = float('inf')
     
     return depth_image
-
+</code>
+</pre>
 
 If you use any of the dataset, please cite the following publications:
 
