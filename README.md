@@ -40,7 +40,8 @@ def _get_depth_image(depth_image_path):
 </pre>
 
 If you use any of the dataset, please cite the following publications:
-
+<pre>
+<code>
 @inproceedings{cho2022event,
   title={Event-image Fusion Stereo using Cross-modality Feature Propagation},
   author={Cho, Hoonhee and Yoon, Kuk-Jin},
@@ -48,3 +49,5 @@ If you use any of the dataset, please cite the following publications:
   year={2022},
   organization={Association for the Advancement of Artificial Intelligence}
 }
+</code>
+</pre>
